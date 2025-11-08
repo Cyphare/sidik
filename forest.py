@@ -61,6 +61,5 @@ def train_interpretable_model(data_path):
     plt.savefig(output_image)
     print(f"\nVisualisasi 'feature importance' disimpan sebagai {output_image}")
 
-# --- Jalankan Proses ---
 if __name__ == "__main__":
     train_interpretable_model('data_sdi_dummy.csv')
